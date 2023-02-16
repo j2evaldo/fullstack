@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Span</title>
+
+    <!-- ID começa com # -->
+    <!-- Classe começa com "." -->
+    <style type="text/css">
+        #topo{
+            background: blue;
+        }
+        #conteudo{
+            background: red;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        #rodape{
+            background: green;
+            padding-left: 50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #assinatura{
+            background: greenyellow;
+        }
+        .produto{
+            background:gray;
+            margin-top: 10px;
+        }
+        .azul{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="topo">
+        <img src="C:\EVALDO\CODIGOS\FULLSTACK\CSS\imagens\amazon.png" alt="Logo da Amazon" width="200">
+    </div>
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class = 'produto'>
+            Produto 3
+        </div>
+    </div>
+    <div id="rodape">
+       <strong>todos os <span class="azul">direitos</span> reservados</strong>
+    </div>
+    <!-- Elemento que fica uma na frente do outro -->
+    <!-- Span é mais recomendado para aplicar formatações em textos -->
+    <span id=assinatura>
+        Evaldo
+    </span>
+    <span>
+        Junior 
+    </span>
+</body>
+</html>
